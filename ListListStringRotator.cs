@@ -5,9 +5,9 @@ using System.Collections.Generic;
 public class ListListStringRotator
 {
 
-    public void rotatePattern ( List<List<string>> unrotatedPattern , string direction ) {
+    public List<List<string>> rotatePattern ( List<List<string>> unrotatedPattern , string direction ) {
 
-        Debug.Log( "running rotatePattern ( " + direction + " ) within ListRotator" );
+        Debug.Log( "running rotatePattern ( " + direction + " ) within ListListStringRotator" );
 
         List<List<string>> rotatedPattern;
 
